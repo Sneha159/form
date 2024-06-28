@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(28, 8, 244, 0.513);
+    background: url(/audio/pexels-bridge.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+  } 
+
+h1{
+    font-style: italic ;
+    font-weight:bolder;
+    font-size: 40px;
+    color: blanchedalmond;
+    text-shadow: 5px 10px 2px rgb(41, 40, 44);
+    margin-bottom: 60px;
+}
+
+h2{
+    font-style: italic ;
+    font-weight: normal;
+    font-size: 40px;
+    color: coral;
+    text-shadow: 5px 0px 2px rgb(25, 25, 26);
+    margin-bottom: 60px;
+}
+
+label{
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    font-size:18px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    font-style: bold ;
+}
+
+
+input{
+    background: rgba(255,255,255,0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: rgb(245, 243, 243);
+    background-color: rgba(189, 187, 202, 0.513);
+  }
+
+  ::placeholder{
+    color: rgb(229, 205, 167);
+    font-size: small;
+    font-style: oblique;
+  }

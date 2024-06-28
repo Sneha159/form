@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form</title>
+    <link rel="stylesheet"href="form.css">
+</head>
+<body>
+    <form>
+
+        <h1 align="center">FORM</h1>
+        <fieldset>
+            <legend><h2>Personal Details</h2></legend>
+                <label for="fname">First Name:-</label>
+                <input type="text" id="fname" placeholder="FirstName" required><br>
+
+                <br>
+                <label for="lname">Last Name:-</label>
+                <input type="text" id="lname" placeholder="LastName" required><br>
+
+                <br>
+                <label for="add">Address:-</label>
+                <input type="text" id="add" placeholder="Address" required><br>
+
+                <br>
+                <label for="email">Email-id:-</label>
+                <input type="email" id="email" placeholder="Email" required pattern="................@gmail.com"><br>
+
+                <br>
+                <label for="num">Mobile Number:-</label>
+                <input type="text" id="num" placeholder="Call Num." required><br>
+        </fieldset>
+
+        <fieldset>
+
+            <legend><h2>Educational Details</h2></legend>
+                <label for="course">Course:-</label>
+                <input type="text" id="course" list="data" placeholder="select" required>
+                <datalist id="data">
+
+                <option>BCA</option>
+                <option>BBA</option>
+                <option>BCOM</option>
+                <option>BSC.IT</option>
+                <option>BTECH</option>
+                <option>MCA</option>
+                <option>MBA</option>
+                <option>MCOM</option>
+                <option>MSC.IT</option>
+                <option>MTECH</option>
+                </datalist>
+
+                <label for="sem">Sem:-</label>
+                <input id="sem" type="text" list="data2" placeholder="select" required>
+                <datalist id="data2">
+                    <option>Sem 1</option>
+                    <option>Sem 2</option>
+                    <option>Sem 3</option>
+                    <option>Sem 4</option>
+                    <option>Sem 5</option>
+                    <option>Sem 6</option>
+                    <option>Sem 7</option>                  
+                    <option>Sem 8</option>
+                </datalist><br>
+
+            <br><fieldset>
+                <legend><h2>UPLOAD</h2></legend>
+                    <label for="m1">12th Marksheet:-</label>
+                    <button id="m1" required>Choose File</button><br>
+
+            <br>    <label for="m2">10th Marksheet:-</label>
+                    <button id="m2" required>Choose File</button><br>
+
+            <br>    <label for="ph">Photo Id  :-</label>
+                    <button id="ph" required>Choose File</button><br>
+
+            <br>    <label for="ac">Adhar Card :-</label>
+                    <button id="ac" required>Choose File</button><br>
+
+            <br>    <label for="ic">Income Certificate:-</label>
+                    <button id="ic" required>Choose File</button><br>    
+                                
+                    
+                </fieldset><br>
+    
+    
+                <button style="width: 100px;background-color: blue;color:rgb(254, 242, 242); border-radius: 20px; padding: 0px 20px;border: none;margin-bottom: 20px;">SUBMIT</button>
+
+    </fieldset>
+    
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
